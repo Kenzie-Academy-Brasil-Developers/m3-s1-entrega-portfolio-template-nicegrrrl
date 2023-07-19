@@ -1,22 +1,8 @@
-import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
-import { AboutMeSection } from "./components/sections/AboutMeSection";
-import { BannerSection } from "./components/sections/BannerSection";
-import { ProjectsSection } from "./components/sections/ProjectsSection";
-import { TechSection } from "./components/sections/TechSection";
+import { HomePage } from "./pages/homePage";
 import "./styles/index.css";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <BannerSection />
-      <AboutMeSection />
-      <TechSection />
-      <ProjectsSection />
-      <Footer />
-    </>
-  );
+  return <HomePage />;
 }
 
 export default App;
