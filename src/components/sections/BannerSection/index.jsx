@@ -1,8 +1,10 @@
+import { username } from "../../../data/user.js";
+
 export const BannerSection = () => {
   return (
     <section>
       <div>
-        <p>JOSEDASILVA</p>
+        <p>{username}</p>
         <h2>Bem vindo ao meu portfólio</h2>
         <p>Uma frase interessante sobre mim</p>
         <button>Saiba mais</button>

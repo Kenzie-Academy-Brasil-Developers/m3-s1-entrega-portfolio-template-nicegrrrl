@@ -5,6 +5,7 @@ import { TechList } from "./TechList/index.jsx";
 export const TechSection = () => {
   return (
     <section>
+      <h3>Tecnologias</h3>
       <TechList />
     </section>
   );
