@@ -7,10 +7,13 @@
 
   --font-primary: "Inter", sans-serif;
 
-  --font-weight-1: 700; /* bold */
-  --font-weight-1: 400; /* regular */
+  --font-weight-1: 800; /* extrabold */
+  --font-weight-2: 700; /* bold */
+  --font-weight-3: 400; /* regular */
 }
 
-/* body {
+body {
   background-color: var(--black);
-} */
+  line-height: 150%;
+  font-family: var(--font-primary);
+}
