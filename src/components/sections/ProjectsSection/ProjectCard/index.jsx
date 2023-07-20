@@ -1,4 +1,5 @@
 import styles from "./style.module.css";
+import github from "../../../../assets/git-icon.png";
 
 export const ProjectCard = ({ project }) => {
   return (
@@ -9,13 +10,11 @@ export const ProjectCard = ({ project }) => {
           <p className="paragraph">{project.description}</p>
         </div>
         <div>
-          <button href="" className="link__button">
-            Saiba mais
-          </button>
+          <button className="link__button">Saiba mais</button>
         </div>
       </div>
       <div>
-        <img src="../../../../src/assets/git-icon.png" alt="" />
+        <img src={github} alt="github icon" />
       </div>
     </li>
   );
