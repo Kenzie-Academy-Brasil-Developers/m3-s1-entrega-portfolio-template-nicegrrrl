@@ -5,8 +5,8 @@ export const ProjectCard = ({ project }) => {
     <li className={styles.card}>
       <div className={styles.card__top}>
         <div className={styles.card__info}>
-          <h4 class="title3">{project.name}</h4>
-          <p class="paragraph">{project.description}</p>
+          <h4 className="title3">{project.name}</h4>
+          <p className="paragraph">{project.description}</p>
         </div>
         <div>
           <button href="" className="link__button">

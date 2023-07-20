@@ -1,19 +1,18 @@
-import { Header } from "../../components/Header";
 import { BannerSection } from "../../components/sections/BannerSection";
 import { AboutMeSection } from "../../components/sections/AboutMeSection";
 import { TechSection } from "../../components/sections/TechSection";
 import { ProjectsSection } from "../../components/sections/ProjectsSection";
-import { Footer } from "../../components/Footer";
+import { DefaultTemplate } from "../../components/DefaultTemplate";
 
 export const HomePage = () => {
   return (
     <>
-      <Header />
-      <BannerSection />
-      <AboutMeSection />
-      <TechSection />
-      <ProjectsSection />
-      <Footer />
+      <DefaultTemplate>
+        <BannerSection />
+        <AboutMeSection />
+        <TechSection />
+        <ProjectsSection />
+      </DefaultTemplate>
     </>
   );
 };

@@ -1,8 +1,7 @@
 .flexBox {
-  min-height: 20vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 @media (min-width: 720px) {
@@ -11,6 +10,6 @@
   }
 
   .aboutMeTitle {
-    width: 50%;
+    width: 90%;
   }
 }

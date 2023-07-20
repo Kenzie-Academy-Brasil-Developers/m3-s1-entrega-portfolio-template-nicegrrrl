@@ -23,6 +23,10 @@ button {
   font-family: var(--font-primary);
 }
 
+section {
+  padding: 20px 0;
+}
+
 a,
 a:visited {
   color: var(--white);

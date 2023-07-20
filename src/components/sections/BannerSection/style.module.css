@@ -5,6 +5,11 @@
   gap: 3.125rem;
 }
 
+.content,
+.contentImg {
+  width: 100%;
+}
+
 .text {
   padding: 2.5rem 0;
   font-size: 1rem;
@@ -13,21 +18,25 @@
   color: var(--white);
 }
 
-.img {
-  width: 100%;
+.contentImg {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.containerImg {
   margin: 0 auto;
-  padding: 1rem;
 }
 
 @media (min-width: 720px) {
   .flexBox {
-    height: 40vh;
     padding-top: 60px;
     flex-direction: row;
     gap: 0;
   }
 
-  .img {
-    height: 85%;
+  .content,
+  .contentImg {
+    width: 50%;
   }
 }

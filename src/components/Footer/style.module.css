@@ -23,6 +23,7 @@
 }
 
 .footer__icons > img {
+  cursor: pointer;
   width: 20px;
 }
 

@@ -8,5 +8,6 @@
 @media (min-width: 720px) {
   .projectList {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 }
