@@ -1,5 +1,7 @@
 import { username } from "../../../data/user.js";
 import styles from "./style.module.css";
+// import banner from "../../src/assets/banner-img.png";
+import banner from "../../../assets/banner-img.png";
 
 export const BannerSection = () => {
   return (
@@ -14,7 +16,7 @@ export const BannerSection = () => {
           </div>
           <div className={styles.contentImg}>
             <div className={styles.containerImg}>
-              <img src="../../src/assets/banner-img.png" alt="banner section" />
+              <img src={banner} alt="banner section" />
             </div>
           </div>
         </div>
