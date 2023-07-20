@@ -1,5 +1,3 @@
-import { technologies } from "../../../data/technologies.js";
-import { TechCard } from "./TechCard/index.jsx";
 import { TechList } from "./TechList/index.jsx";
 import styles from "./style.module.css";
 
