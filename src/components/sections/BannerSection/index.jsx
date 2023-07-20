@@ -12,8 +12,12 @@ export const BannerSection = () => {
             <p className={styles.text}>Uma frase interessante sobre mim</p>
             <button className="primary__button">Saiba mais</button>
           </div>
-          <div className={styles.img}>
-            <img src="../../src/assets/banner-img.png" alt="banner section" />
+          <div>
+            <img
+              className={styles.img}
+              src="../../src/assets/banner-img.png"
+              alt="banner section"
+            />
           </div>
         </div>
       </div>

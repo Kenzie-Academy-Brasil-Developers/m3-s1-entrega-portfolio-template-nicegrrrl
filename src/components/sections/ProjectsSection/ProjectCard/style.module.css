@@ -1,0 +1,32 @@
+.card {
+  /* width: fit-content; */
+  width: 100%;
+
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 1.5625rem;
+  background-color: transparent;
+}
+
+.card img {
+  width: 37px;
+}
+
+.card__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__info {
+  min-height: 163px;
+}
+
+@media (min-width: 720px) {
+  .card {
+    width: 50%;
+  }
+}

@@ -1,0 +1,16 @@
+.techCard {
+  min-width: 287px;
+  height: 86px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.techCard > img {
+  width: 35px;
+  height: 35px;
+}
+
+@media (min-width: 720px) {
+}

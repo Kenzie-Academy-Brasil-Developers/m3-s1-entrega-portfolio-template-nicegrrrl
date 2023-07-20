@@ -1,16 +1,12 @@
-.flexBox {
-  min-height: 20vh;
+.techList {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
 @media (min-width: 720px) {
-  .flexBox {
+  .techList {
     flex-direction: row;
-  }
-
-  .aboutMeTitle {
-    width: 50%;
   }
 }
