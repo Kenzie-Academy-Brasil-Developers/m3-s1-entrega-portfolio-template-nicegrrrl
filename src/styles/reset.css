@@ -129,6 +129,11 @@ table {
   border-spacing: 0;
 }
 button {
+  cursor: pointer;
   background: transparent;
   border: none;
+}
+
+a {
+  text-decoration: none;
 }

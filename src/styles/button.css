@@ -1,0 +1,31 @@
+.primary__button {
+  height: 2.4375rem;
+  padding: 0 1.25rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-2);
+  line-height: 150%;
+  border-radius: 0.75rem;
+  color: var(--white);
+  background-color: var(--color-primary);
+}
+
+.primary__button:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.link__button {
+  font-size: 16px;
+  font-weight: var(--font-weight-2);
+  line-height: 150%;
+  color: var(--color-primary);
+  background-color: transparent;
+}
+
+.link__button:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+}

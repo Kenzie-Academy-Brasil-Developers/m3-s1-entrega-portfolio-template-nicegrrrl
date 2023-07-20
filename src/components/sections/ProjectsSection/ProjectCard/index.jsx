@@ -4,7 +4,9 @@ export const ProjectCard = ({ project }) => {
       <div>
         <h4>{project.name}</h4>
         <p>{project.description}</p>
-        <a>Saiba mais</a>
+        <button href="" className="link__button">
+          Saiba mais
+        </button>
       </div>
       <div>
         <img src="../../../../src/assets/git-icon.png" alt="" />

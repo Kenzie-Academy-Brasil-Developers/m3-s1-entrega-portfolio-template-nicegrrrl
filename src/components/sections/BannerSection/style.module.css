@@ -1,0 +1,27 @@
+.flexBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+}
+
+.text {
+  padding: 2.5rem 0;
+  font-size: 1rem;
+  font-weight: var(--font-weight-3);
+  line-height: 150%;
+  color: var(--white);
+}
+
+@media (min-width: 720px) {
+  .flexBox {
+    height: 40vh;
+    padding-top: 60px;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  img {
+    height: 85%;
+  }
+}

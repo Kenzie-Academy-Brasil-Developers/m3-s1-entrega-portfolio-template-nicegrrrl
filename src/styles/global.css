@@ -13,7 +13,17 @@
 }
 
 body {
+  color: var(--white);
   background-color: var(--black);
   line-height: 150%;
   font-family: var(--font-primary);
+}
+
+button {
+  font-family: var(--font-primary);
+}
+
+a,
+a:visited {
+  color: var(--white);
 }

@@ -1,8 +1,8 @@
 export const AboutMeSection = () => {
   return (
-    <section>
+    <section id="#aboutMe">
       <div>
-        <h3>Sobre mim</h3>
+        <h3 className="title2">Sobre mim</h3>
       </div>
       <div>
         <p>

@@ -2,7 +2,7 @@ import { user } from "../../data/user.js";
 
 export const Footer = () => {
   return (
-    <section>
+    <section id="projects">
       <div>
         <h3>Contato</h3>
         <div>
