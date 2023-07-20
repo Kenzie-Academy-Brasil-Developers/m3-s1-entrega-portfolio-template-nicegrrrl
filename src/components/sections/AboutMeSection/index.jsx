@@ -2,7 +2,7 @@ import styles from "./style.module.css";
 
 export const AboutMeSection = () => {
   return (
-    <section id="#aboutMe">
+    <section id="aboutMe">
       <div className="container">
         <div className={styles.flexBox}>
           <div className={styles.aboutMeTitle}>

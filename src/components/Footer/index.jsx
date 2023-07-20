@@ -3,7 +3,7 @@ import styles from "./style.module.css";
 
 export const Footer = () => {
   return (
-    <section>
+    <section id="contact">
       <div className="container">
         <div className={styles.footer}>
           <div className={styles.footer__top}>
