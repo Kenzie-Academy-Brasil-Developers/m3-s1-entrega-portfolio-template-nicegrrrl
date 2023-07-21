@@ -30,7 +30,7 @@
 
 @media (min-width: 720px) {
   .flexBox {
-    padding-top: 60px;
+    padding-top: 3.75rem;
     flex-direction: row;
     gap: 0;
   }

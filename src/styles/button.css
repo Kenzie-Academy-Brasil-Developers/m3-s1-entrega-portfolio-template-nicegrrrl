@@ -18,7 +18,7 @@
 }
 
 .link__button {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: var(--font-weight-2);
   line-height: 150%;
   color: var(--color-primary);

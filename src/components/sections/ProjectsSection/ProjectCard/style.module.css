@@ -1,6 +1,6 @@
 .card {
   width: 100%;
-  padding: 30px;
+  padding: 1.875rem;
   display: flex;
   justify-content: space-between;
   color: var(--white);
@@ -10,7 +10,7 @@
 }
 
 .card img {
-  width: 37px;
+  width: 2.3125rem;
 }
 
 .card__top {
@@ -20,11 +20,11 @@
 }
 
 .card__info {
-  min-height: 163px;
+  min-height: 10.1875rem;
 }
 
 @media (min-width: 720px) {
   .card {
-    width: calc(50% - 24px);
+    width: calc(50% - 1.5rem);
   }
 }
